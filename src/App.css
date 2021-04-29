@@ -71,6 +71,7 @@ body {
 }
 .list-card {
   margin-right: 50px;
+  width: 35rem;
 }
 .map-card {
   width: 100px;
@@ -103,7 +104,7 @@ img {
   }
 
   .list-card {
-    max-width: 10rem !important;
+    width: 15rem !important;
     padding: 0;
     margin-left: -10px;
   }
@@ -146,6 +147,11 @@ img {
     font-size: 12px;
     text-transform: uppercase !important;
     margin-right: 3px;
+  }
+  .list-card {
+    width: 20rem !important;
+    padding: 0;
+    margin-left: -10px;
   }
   .card-body {
     display: flex;

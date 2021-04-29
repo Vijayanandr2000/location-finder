@@ -113,7 +113,7 @@ function App() {
             </div>
           </div>
           <div className="card-body">
-            <div class="  list-card" style={{ width: 25 + "rem" }}>
+            <div class="  list-card">
               <div class="card-body">
                 <table class="table table-bordered table-dark">
                   <thead>
