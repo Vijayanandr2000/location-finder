@@ -4,7 +4,7 @@ body {
 .card {
   margin-top: 3vh;
   border-radius: 12px;
-  height: 550px;
+  /* height: 550px; */
   overflow: hidden;
 
   /* mawidth: 700px; */
@@ -70,12 +70,12 @@ body {
   width: 150px;
 }
 .list-card {
-  margin-right: 10px;
+  margin-right: 50px;
 }
 .map-card {
   width: 100px;
   height: 430px;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 img {
   color: red;
@@ -126,7 +126,7 @@ img {
     font-size: 15px;
     font-family: italic;
     margin-top: 10px;
-    height: 800px;
+    height: 300px;
     margin-left: -10px;
     margin-bottom: 10px;
   }
@@ -159,8 +159,8 @@ img {
     /* width: 100px; */
     font-size: 15px;
     font-family: italic;
-    margin-top: 10px;
-    height: 800px;
+    /* margin-top: 10px; */
+    height: 300px;
     margin-left: -10px;
     margin-bottom: 10px;
   }
