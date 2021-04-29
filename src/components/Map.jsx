@@ -27,7 +27,7 @@ const Map = ({ list }) => {
         >
           <img
             src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F299087%2Fmarker_map_icon&psig=AOvVaw1Bt1ZA0ZgwmhiARGtQHOzg&ust=1619767483865000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjriaL2ovACFQAAAAAdAAAAABAJ"
-            alt="here is the place"
+            alt={item.place}
             width={viewport.zoom * 5}
             height={viewport.zoom * 5}
             color="red"
