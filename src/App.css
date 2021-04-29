@@ -1,38 +1,167 @@
-.App {
+body {
+  background-color: #72a1bf !important;
+}
+.card {
+  margin-top: 3vh;
+  border-radius: 12px;
+  height: 550px;
+  overflow: hidden;
+
+  /* mawidth: 700px; */
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #074770;
+  overflow: hidden;
+  /* border: 10px solid red; */
+}
+.head h1 {
   text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* overflow: hidden; */
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input input {
+  width: 180px;
+  margin-right: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 0;
+  margin-top: 25px;
+  width: 90px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.add-btn {
+  color: blue;
+  font-weight: 800;
+  font-size: 12px;
+  text-transform: uppercase !important;
+  /* margin-right: 10px; */
 }
+.table {
+  font-size: 14px;
+  text-align: center;
+}
+.card-body {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  margin-right: 20px;
+}
+.route-btn {
+  margin-left: 10px;
+  margin-bottom: -50px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  width: 150px;
+}
+.list-card {
+  margin-right: 10px;
+}
+.map-card {
+  width: 100px;
+  height: 430px;
+  margin-left: 10px;
+}
+img {
+  color: red;
+  background-color: black;
+}
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 5px;
+    font-weight: 300;
   }
-  to {
-    transform: rotate(360deg);
+  .input input {
+    width: 80px;
+    padding-left: 3px;
+    margin-right: 3px;
+    font-size: small;
+  }
+  .button {
+    color: blue;
+    font-weight: 800;
+    font-size: 2px;
+    text-transform: uppercase !important;
+    margin-right: 2px;
+    margin-left: -2px;
+    width: 85px;
+  }
+
+  .list-card {
+    max-width: 10rem !important;
+    padding: 0;
+    margin-left: -10px;
+  }
+  .table {
+    width: 30%;
+    padding: 0;
+    font-size: 12px;
+    text-align: center;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    margin-left: -10px;
+    /* justify-content: space-between; */
+  }
+  .map-card {
+    /* width: 100px; */
+    font-size: 15px;
+    font-family: italic;
+    margin-top: 10px;
+    height: 800px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .input input {
+    width: 100px;
+    margin-right: 2px;
+  }
+  .button {
+    color: blue;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase !important;
+    margin-right: 3px;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin-bottom: 20px;
+    margin-left: -10px;
+    /* justify-content: space-between; */
+  }
+  .map-card {
+    /* width: 100px; */
+    font-size: 15px;
+    font-family: italic;
+    margin-top: 10px;
+    height: 800px;
+    margin-left: -10px;
+    margin-bottom: 10px;
   }
 }
